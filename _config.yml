@@ -36,7 +36,7 @@ about_content: |
 
     Before getting into Cyber Security, I gained my BSc in Computer Science and worked in several EU companies as a Web Developer.
 content:
-- title: Certifications
+  - title: Certifications
     layout: list
     content:
       - layout: left
