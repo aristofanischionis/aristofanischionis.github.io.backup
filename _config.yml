@@ -1,0 +1,233 @@
+# TODO: In the future add CTF - organizer and participant, speaker, publications, certifications, trainings etc
+# Site
+repository: aristofanischionis/aristofanischionis.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Aristofanis Chionis Koufakos
+title: Offensive CyberSecurity Engineer
+email: me@aristofanischionis.com
+website: aristofanischionis.com
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  aristofanischionis
+linkedin_username: aristofanischionis
+
+# Additional icon links
+additional_links:
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+gtm: "GTM-TGHSQBQQ"
+
+about_profile_image: images/profile.png
+
+about_content: |
+    Hi 👋🏻! Welcome to my website, my name is Aristofanis, I come from Athens, Greece, and currently live in Copenhagen, Denmark!
+    
+    I am a Cyber Security Engineer with a focus on Red Teaming and Penetration Testing. 
+    I have been working as a <mark>Red Team Operator</mark> at Danske Bank, where I gained valuable experience performing adversary simulation, 
+    vulnerability assessments, and exploitation of various systems such as web applications, databases, servers, printers, and other devices and services. 
+
+    Before getting into Cyber Security, I gained my BSc in Computer Science and worked in several EU companies as a Web Developer.
+content:
+  - title: Speaker at Conferences
+    layout: list
+    content:
+      - layout: left
+        border: none
+        title: Honeyscanner @BlackHat Europe 2023 
+        description: |
+          I had the privilege to present [Honeyscanner at BlackHat Europe 2023](https://www.blackhat.com/eu-23/arsenal/schedule/index.html#honeyscanner-a-vulnerability-analyzer-for-honeypots-35048){:target="_blank"}. 
+          The event took place on the 6th of December 2023 in London, UK.
+          [BlackHat](https://www.blackhat.com/about.html){:target="_blank"} is a computer security conference that provides security consulting, training, and briefings to hackers, corporations, and government agencies around the world.
+          It is a very well-known and established event that gathers the best hackers from around the world and having the opportunity to be among them was a phenomenal experience.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Honeyscanner
+        # link: https://github.com/CERN/slides
+        # link_text: CERN slides code
+        additional_links:
+          - title: Honeyscanner's code
+            icon: fab fa-github
+            url: https://github.com/honeynet/honeyscanner
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | 
+          Designed and Developed Honeyscanner as part of my participation in [Google Summer of Code 2023](https://summerofcode.withgoogle.com/programs/2023/projects/6oyTxlUo){:target="_blank"}.
+          Honeyscanner is a vulnerability analyzer for Honeypots. Its purpose is to automatically assess the security posture of specific open-source honeypot projects. 
+          It does this by performing a series of `passive attacks` - including static code analysis and container scanning, and consecutively it executes a series of `active attacks` against a given honeypot instance.
+          In the end, it provides the tester with a comprehensive security report.
+      - layout: left
+        border: none  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: CERN slides
+        # link: https://github.com/CERN/slides
+        # link_text: CERN slides code
+        additional_links:
+          - title:  CERN slides code
+            icon: fab fa-github
+            url: https://github.com/CERN/slides
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | 
+          Designed, Developed, and Deployed in production, a web-based open source ’presentation slides’- creator application.
+          Collaborated with Storage and Authentication teams to integrate the prototype into CERN's ecosystem.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Danske Bank
+        sub_title: Cyber Security Engineer (Red Team), Associate
+        caption: Oct 2023 - present, Copenhagen, Denmark
+        link: https://danskebank.dk/
+        description: |
+          Skills: Windows Security, Active Directory, Penetration Testing, Network Security, Web Application Security, Command and Control (C2) Infrastructure, Application Security, Burp Suite
+      - layout: left
+        title: Google Summer of Code 2023
+        sub_title: Open Source Developer with The Honeynet Project
+        caption: Mar 2023 - Aug 2023, Remote, Denmark
+        link: https://summerofcode.withgoogle.com/archive/2023/projects/6oyTxlUo
+        description: |
+          Google Summer of Code 2023 participant with The Honeynet Project. Developed Honeyscanner: A vulnerability analysis tool for Honeypots.
+          Skills: Python3, Application Development, Vulnerability Assessment, Penetration Testing, Network Security
+      - layout: left
+        title: Danske Bank
+        sub_title: Cyber Security Engineer (Red Team), Student
+        caption: Nov 2022 - Oct 2023, Copenhagen, Denmark
+        link: https://danskebank.dk/
+        description: |
+          Skills: Windows Security, Active Directory, Penetration Testing, Network Security, Web Application Security, Command and Control (C2) Infrastructure, Application Security, Burp Suite
+      - layout: left
+        title: Nordea Bank
+        sub_title: Software Engineer, student
+        caption: Nov 2021 - Nov 2022, Copenhagen, Denmark
+        link: https://www.nordea.dk/
+        description: |
+          Skills: Web Development, Javascript, Typescript, ReactJS, MaterialUI
+      - layout: left
+        title: Upstream
+        sub_title: Frontend Software Engineer
+        caption: Apr 2021 - Jul 2021, Athens, Greece
+        link: https://www.upstreamsystems.com/
+        description: |
+          Skills: ReactJS, NextJS, Styled Components, MaterialUI, React-Intl
+      - layout: left
+        title: CERN
+        sub_title: Technical Student (Full Stack Web Developer)
+        caption: Aug 2019 - Sep 2020, Geneva, Switzerland
+        link: https://www.home.cern/
+        description: |
+          Skills: ReactJS, MaterialUI, NodeJS, Keycloak (Authentication), Openshift, Docker
+      - layout: left
+        title: Tech Explorations
+        sub_title: Individual contractor (Freelancer)
+        caption: May 2016 - Jan 2020, Athens, Greece (Remote)
+        link: https://techexplorations.com/
+        description: |
+          I developed and supported 2 Udemy courses about making open-source drones:
+            - [Make an Open Source Drone](https://www.udemy.com/course/make_a_drone/) (10000+ students)
+            - [Make an Open Source Drone: More Fun](https://www.udemy.com/course/make-an-open-source-drone-more-fun/) (3000+ students)
+      - layout: left
+        title: Intralot
+        sub_title: Software Engineer Trainee
+        caption: Jul 2018 - Oct 2018, Athens, Greece
+        link: https://www.intralot.com/
+        description: |
+          Skills: Rest APIs, NodeJS, MochaJS, Unit testing, istanbulJS code coverage reporter
+      - layout: left
+        title: NKUA - National and Kapodistrian University of Athens
+        sub_title: Teaching Assistant
+        caption: Oct 2017 - Jan 2018 and Oct 2018 - Feb 2019, Athens, Greece
+        link: https://www.di.uoa.gr/
+        description: |
+          Skills: Lab Teaching assistant for:
+            - Programming courses in C, C++, Java
+            - Linux basics
+            - Efficient Algorithm Design and Implementation
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: DTU - Technical University of Denmark, Copenhagen, Denmark
+        sub_title: MSc in Computer Science and Engineering, specialization Computer Security
+        caption: Aug 2021 - Jul 2023
+        quote: >
+          GPA: 10/12
+        description: |
+          - Data Security
+          - Foundations of distributed systems
+          - Network Security
+          - Biometric Systems
+          - Modern Cryptology
+          - Computer Security Forensics
+          - Current Topics in System Security
+      - layout: left
+        title: Ulster University, Coleraine, Northern Ireland (UK)
+        sub_title: Erasmus + Exchange student in Computer Science
+        caption: Spring 2018
+        quote: >
+          GPA: 7/10
+        description: |
+          - Games Technologies
+          - Internet of Things
+          - Full Stack Web & App Development
+      - layout: left
+        title: NKUA - National and Kapodistrian University of Athens, Athens, Greece
+        sub_title: BSc in Informatics and Telecommunications, specialization Software Engineering
+        caption: Sep 2015 - Jul 2021
+        quote: >
+          GPA: 7.48/10
+        description: |
+          - Discrete Mathematics
+          - Calculus I & II
+          - Probability and Statistics
+          - Number Theory
+          - Algorithms and Complexity
+          - Data Structures and Programming Techniques
+          - Design and Applications of Databases
+          - Implementation of Database Management Systems
+          - Computer Architecture I
+          - Programming in C
+          - Object-Oriented Programming
+          - Operating Systems
+          - Systems Programming
+          - Software Development for Algorithmic Problems 
+          - Theory of Computation
+          - Artificial Intelligence (in Python)
+# Footer
+footer_show_references: false
+references_title:
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
