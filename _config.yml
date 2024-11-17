@@ -1,14 +1,14 @@
 # TODO: In the future add CTF - organizer and participant, speaker, publications, certifications, trainings etc
 # Site
 repository: aristofanischionis/aristofanischionis.github.io
-favicon: images/favicon.ico
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Aristofanis Chionis Koufakos
-title: Offensive CyberSecurity Engineer
+name: Aristos
+title: Red Team
 email: me[at]aristofanischionis[.]com
 website: aristofanischionis.com
 
@@ -25,10 +25,10 @@ additional_links:
 # Using more than one of these may cause issues with reporting
 gtm: "GTM-TGHSQBQQ"
 
-about_profile_image: images/profile.png
+# about_profile_image: images/profile.png
 
 about_content: |
-    Hi 👋🏻! Welcome to my website, my name is Aristofanis, I come from Athens, Greece, and currently live in Copenhagen, Denmark!
+    Hi 👋🏻! Welcome to my website, my name is Aristos, I come from Athens, Greece, and currently live in Copenhagen, Denmark!
     
     I am a Cyber Security Engineer with a focus on Red Teaming and Penetration Testing. 
     I have been working as a <mark>Red Team Operator</mark> at Danske Bank, where I gained valuable experience performing adversary simulation, 
